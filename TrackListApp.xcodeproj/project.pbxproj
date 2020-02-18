@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442361AF23FC1DC500E36EEC /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442361AE23FC1DC500E36EEC /* TrackListViewController.swift */; };
 		44368F5023FB2BE300A3802A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44368F4F23FB2BE300A3802A /* AppDelegate.swift */; };
 		44368F5223FB2BE300A3802A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44368F5123FB2BE300A3802A /* SceneDelegate.swift */; };
-		44368F5423FB2BE300A3802A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44368F5323FB2BE300A3802A /* ViewController.swift */; };
 		44368F5723FB2BE300A3802A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44368F5523FB2BE300A3802A /* Main.storyboard */; };
 		44368F5923FB2BE400A3802A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44368F5823FB2BE400A3802A /* Assets.xcassets */; };
 		44368F5C23FB2BE400A3802A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44368F5A23FB2BE400A3802A /* LaunchScreen.storyboard */; };
+		4495BBC723FC76D500A889FB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4495BBC623FC76D500A889FB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442361AE23FC1DC500E36EEC /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		44368F4C23FB2BE300A3802A /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44368F4F23FB2BE300A3802A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44368F5123FB2BE300A3802A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44368F5323FB2BE300A3802A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44368F5623FB2BE300A3802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44368F5823FB2BE400A3802A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44368F5B23FB2BE400A3802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44368F5D23FB2BE400A3802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4495BBC623FC76D500A889FB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				44368F4F23FB2BE300A3802A /* AppDelegate.swift */,
+				442361AE23FC1DC500E36EEC /* TrackListViewController.swift */,
+				4495BBC623FC76D500A889FB /* DetailViewController.swift */,
 				44368F5123FB2BE300A3802A /* SceneDelegate.swift */,
-				44368F5323FB2BE300A3802A /* ViewController.swift */,
 				44368F5523FB2BE300A3802A /* Main.storyboard */,
 				44368F5823FB2BE400A3802A /* Assets.xcassets */,
 				44368F5A23FB2BE400A3802A /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44368F5423FB2BE300A3802A /* ViewController.swift in Sources */,
 				44368F5023FB2BE300A3802A /* AppDelegate.swift in Sources */,
 				44368F5223FB2BE300A3802A /* SceneDelegate.swift in Sources */,
+				442361AF23FC1DC500E36EEC /* TrackListViewController.swift in Sources */,
+				4495BBC723FC76D500A889FB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
